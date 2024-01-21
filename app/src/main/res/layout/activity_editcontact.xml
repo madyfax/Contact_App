@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="12dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/contactlogo"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Photo"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_gravity="center">
+
+            </TextView>
+
+            <EditText
+                android:maxLines="1"
+                android:id="@+id/cname"
+                android:layout_marginTop="34dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:hint="Name"
+                android:textColorHint="@color/grey"
+                android:textSize="23dp">
+
+            </EditText>
+
+
+
+            <EditText
+                android:maxLines="1"
+                android:id="@+id/cnumber"
+                android:layout_marginTop="26dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:hint="Phone number"
+                android:textColorHint="@color/grey"
+                android:textSize="23dp">
+
+            </EditText>
+
+<!--            <FrameLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--&lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginTop="14dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/cdob"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:maxLines="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginLeft="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textSize="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:hint="Date of Birth"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textColorHint="@color/grey" />&ndash;&gt;-->
+
+<!--                <ImageView-->
+<!--                    android:layout_marginTop="23dp"-->
+<!--                    android:id="@+id/cpicker"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_gravity="right"-->
+<!--                    android:layout_marginRight="5dp"-->
+<!--                    android:background="@drawable/ic_baseline_add_24"-->
+<!--                    android:textColor="@color/white">-->
+
+<!--                </ImageView>-->
+
+<!--            </FrameLayout>-->
+
+            <EditText
+                android:maxLines="1"
+                android:id="@+id/caddress"
+                android:layout_marginTop="26dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:hint="Address"
+                android:textColorHint="@color/grey"
+                android:textSize="23dp">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/save"
+                android:gravity="center"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="34dp"
+                android:background="@drawable/signup"
+                android:padding="7dp"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

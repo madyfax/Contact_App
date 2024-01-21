@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sc"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share"/>
+
+    <item
+        android:id="@+id/lv"
+        android:icon="@drawable/lv"
+        android:title="likes"
+        app:showAsAction="always" />
+
+
+    <item android:id="@+id/ep"
+        android:title="EDit Profile"/>
+    <item android:id="@+id/cp"
+        android:title="Change Password"/>
+    <item android:id="@+id/logout"
+        android:title="Logout"/>
+
+</menu>

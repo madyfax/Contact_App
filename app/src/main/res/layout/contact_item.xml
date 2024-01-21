@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+     <LinearLayout
+         android:id="@+id/favv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="12dp">
+
+        <ImageView
+            android:id="@+id/ig"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/letter">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="@color/white"
+                    android:textSize="23dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 3974539204"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+         <ImageView
+             android:id="@+id/ig1"
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:layout_gravity="center_vertical"
+             android:background="@drawable/symbol">
+
+         </ImageView>
+
+
+         <ImageView
+             android:padding="15sp"
+             android:layout_gravity="center_vertical"
+             android:id="@+id/ig2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/ic_baseline_more_vert_24">
+
+         </ImageView>
+
+     </LinearLayout>
+
+
+</LinearLayout>
+
+
